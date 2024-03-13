@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap");
+
+/* global styles */
+*,
+*::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  font-family: Kumbh Sans;
+}
+
+.container {
+  max-width: 1950px;
+  margin: 0 auto;
+}
+
+/* first box */
+
+.accordion-wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, #b068e9 0%, #6463e7 100%);
+}
+
+/* accordion box */
+
+.accordion-box {
+  padding: 5% 5% 5% 0;
+  position: relative;
+  width: 1000px;
+  height: 510px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 23px;
+  box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.5);
+  background: rgba(255, 255, 255, 1);
+}
+
+/* images styles */
+
+.work-table {
+  left: 0;
+  bottom: 100px;
+  position: absolute;
+}
+
+.box-box {
+  left: -95px;
+  top: 170px;
+  position: absolute;
+  z-index: 10;
+}
+
+.shadow {
+  position: absolute;
+  left: 0;
+  top: 60px;
+}
+
+.res-shadow {
+  display: none;
+}
+
+.res-table {
+  display: none;
+}
+
+/* questions content styles */
+
+.questions-content h2 {
+  padding: 15px 0;
+  font-size: 32px;
+  color: rgba(30, 31, 54, 1);
+}
+
+.questions-content li {
+  border-bottom: 1px solid rgba(232, 232, 234, 1);
+}
+
+.questions {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+
+.questions h3 {
+  padding: 15px 0;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(75, 76, 95, 1);
+}
+
+.questions h3:hover {
+  transition: all 0.3s ease;
+  color: rgba(244, 123, 86, 1);
+}
+
+.questions-content p {
+  padding-bottom: 13px;
+  font-size: 12px;
+  color: rgba(120, 120, 135, 1);
+}
+
+/* answers */
+
+#answers {
+  display: none;
+}
